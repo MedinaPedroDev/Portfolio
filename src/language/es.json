@@ -1,0 +1,13 @@
+{
+    "navigate":{
+        "home":"Inicio",
+        "about":"Sobre mi",
+        "projects":"Proyectos",
+        "contact":"Contacto"
+    },
+    "head":{
+        "greeting":"¡Hola,",
+        "name":"Soy Pedro Medina!",
+        "description":"Tecnico Informatico, Desarrollador Web y Apasionada por la tecnología."
+    }
+}

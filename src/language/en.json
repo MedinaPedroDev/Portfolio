@@ -1,0 +1,13 @@
+{
+    "navigate": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "head": {
+        "greeting": "Home,",
+        "name":"I'm Pedro Medina!",
+        "description": "Computer Technician, Web Developer and Passionate about technology."
+    }
+}

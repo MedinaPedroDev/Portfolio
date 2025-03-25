@@ -1,2 +1,36 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
+
+/* ----------------------------------------------------- ANIMATES ----------------------------------------------------- */
+.animate-write {
+  animation: blick 0.5s step-end infinite alternate, write 1.5s steps(16);
+}
+
+.animate-blick {
+  animation: blick 0.5s step-end infinite alternate;
+}
+
+.animate-write-reverse {
+  animation: blick 0.5s step-end infinite alternate,
+    write-reverse 1.5s steps(16) forwards;
+}
+
+@keyframes blick {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes write {
+  from {
+    width: 0;
+  }
+}
+@keyframes write-reverse {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
