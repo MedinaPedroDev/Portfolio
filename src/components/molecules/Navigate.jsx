@@ -1,7 +1,7 @@
 import { Link } from 'react-router'
 import DayNightToggleSwitch from "../toggles/DayNightToggleSwitch.jsx"
 import LanguajeToogle from "../toggles/LanguajeToogle.jsx"
-import { IconHome, IconAbout, IconCode, IconContant } from "../Icons.jsx"
+import { IconHome, IconAbout, IconCode, IconContant } from "../elements/Icons.jsx"
 import { useAuthContext } from '../../context/AuthContext.jsx'
 function Navigate({ className, ...props }) {
     const { contentPage } = useAuthContext()

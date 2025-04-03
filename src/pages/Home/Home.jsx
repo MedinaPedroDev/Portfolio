@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
-import Navigate from '../components/header/Navigate'
-import ParticlesBasic from '../components/header/ParticlesBasic'
-import Head from '../components/header/Head'
-import About from '../components/about/About'
-
+import Navigate from '../../components/molecules/Navigate'
+import ParticlesBasic from '../../components/elements/ParticlesBasic'
+import Head from './containers/Head'
+import About from './containers/About'
+import Contact from './containers/Contact'
+import Footer from '../../components/molecules/Footer'
 function Home() {
 
 
@@ -21,8 +22,9 @@ function Home() {
 
       <main className=' w-full bg-gray-200 dark:bg-gray-950 z-1'>
         <About />
+        <Contact />
       </main>
-
+      <Footer className={"bg-gray-200 dark:bg-gray-950 z-1"}/>
     </div>
   )
 }

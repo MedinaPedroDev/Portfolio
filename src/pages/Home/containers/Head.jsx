@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react'
-import Profile from "../../assets/profile/profile.png"
-import { useAuthContext } from '../../context/AuthContext';
-import { IconContant, IconLinkedin, IconGithub } from "../Icons"
-import LinkIcon from '../button-links/linkIcon';
+import Profile from "../../../assets/profile/profile.png"
+import { useAuthContext } from '../../../context/AuthContext'
+import { IconContant, IconLinkedin, IconGithub } from "../../../components/elements/Icons"
+import LinkIcon from '../../../components/buttons/LinkIcon';
 function Head({ className, ...props }) {
   const { contentPage } = useAuthContext()
   const spanHeadName = useRef(null)

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import Particles, { initParticlesEngine } from '@tsparticles/react';
 import { loadFull } from "tsparticles";
-import { useAuthContext } from '../../context/AuthContext';
+import { useAuthContext } from '../../context/AuthContext.jsx';
 
 function ParticlesBasic({className}) {
 

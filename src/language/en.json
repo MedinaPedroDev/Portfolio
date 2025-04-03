@@ -9,5 +9,22 @@
         "greeting": "Home,",
         "name":"I'm Pedro Medina!",
         "description": "Computer Technician, Web Developer and Passionate about technology."
+    },
+    "contact":{
+        "title":"Contact",
+        "name":"Name",
+        "placeholderName":"Write your Name",
+        "email":"Email",
+        "placeholderEmail":"Write your Email",
+        "message":"Message",
+        "placeholderMessage":"Write your Message",
+        "submit":"Submit"
+    },
+    "footer":{
+        "messageOne":"Every line of code that you write is a step towards mastery.",
+        "messageTwo":"Clean code today will be your pride tomorrow.",
+        "sectionNavigate":"Navigation",
+        "sectionWeb":"About this website:",
+        "by":"By"
     }
 }

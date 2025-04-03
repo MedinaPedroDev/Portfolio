@@ -1,6 +1,6 @@
 import React from 'react';
-import { IconMoon, IconSun } from '../Icons';
-import {useAuthContext} from '../../context/AuthContext.jsx'
+import { IconMoon, IconSun } from '../elements/Icons';
+import {useAuthContext} from '../../context/AuthContext'
 function DayNightToggleSwitch() {
     const {setdarkMode, darkMode} = useAuthContext()
 

@@ -1,16 +1,14 @@
 import React from 'react'
-import ContentSection from '../ContentSection'
-import Profile from '../../assets/profile/profile.png'
+import ContentSection from '../../../components/elements/ContentSection'
+import Profile from '../../../assets/profile/profile.png'
 import {ListSkill, colors} from './ListSkill.js'
-import { clsx } from 'clsx';
-import { twMerge } from 'tailwind-merge';
-
+import TitleH2 from '../../../components/elements/TitleH2.jsx'
 function About({ className, ...props }) {
     
     return (
         <ContentSection id="about">
             <div className='w-full flex flex-col justify-center items-center '>
-                <h2 className='text-center text-4xl md:text-5xl font-bold mb-12'>¿Quién soy?</h2>
+                <TitleH2 >¿Quién soy?</TitleH2>
                 <div className='w-full flex flex-col-reverse md:flex-row items-center justify-evenly '>
                     <div className='w-full md:w-3/4'>
                         <h3 className='me-auto text-4xl text-red-500 font-semibold font-mono mb-8'>Pedro Medina</h3>
@@ -26,14 +24,14 @@ function About({ className, ...props }) {
                 </div>
             </div>
             <div className='w-full flex flex-col items-center justify-center mt-12'>
-                <h2 className='text-center text-4xl md:text-5xl font-bold mb-12'>Tecnologias y Herramientas</h2>
+                <TitleH2>Tecnologias y Herramientas</TitleH2>
                 <ul className='w-full md:w-3/4 flex justify-evenly items-center flex-wrap gap-8' >
                     {
                         ListSkill?.map((skill, index) => {
                             return skill ? (
 
                                 <li key={index}
-                                    className={`flex font-semibold flex-col min-w-32 items-center mb-4 shadow-xl shadow-${skill?.color}/50 inset-shadow-sm inset-shadow-${skill?.color} ring-2 ring-${skill?.color}/50 rounded-md p-4 px-3.5 md:px-5 hover:scale-105 transition-all ease-in-out duration-300 hover:bg-${skill?.color}/25`}
+                                    className={`flex font-semibold flex-col min-w-32 items-center mb-4 shadow-xl shadow-${skill?.color}/50 inset-shadow-sm inset-shadow-${skill?.color} ring-2 ring-${skill?.color}/50 rounded-md p-4 px-3.5 md:px-5 hover:scale-105 transition-all ease-in-out duration-300 bg-gray-950 text-white hover:bg-${skill?.color}/25`}
                                 >
 
                                     <span className='mb-2'>
