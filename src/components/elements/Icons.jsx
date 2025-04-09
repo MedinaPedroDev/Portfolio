@@ -1,4 +1,4 @@
-export function IconSun({ ...props }) {
+export function Sun({ ...props }) {
     return (
         <svg
             {...props}
@@ -10,7 +10,7 @@ export function IconSun({ ...props }) {
     )
 }
 
-export function IconMoon({ ...props }) {
+export function Moon({ ...props }) {
     return (
         <svg
             {...props}
@@ -23,7 +23,7 @@ export function IconMoon({ ...props }) {
     )
 }
 
-export function IconMenu({ ...props }) {
+export function Menu({ ...props }) {
     return (
         <svg
             {...props}
@@ -36,7 +36,7 @@ export function IconMenu({ ...props }) {
     )
 }
 
-export function IconHome({ ...props }) {
+export function Home({ ...props }) {
     return (
         <svg
             {...props}
@@ -49,7 +49,7 @@ export function IconHome({ ...props }) {
     )
 }
 
-export function IconAbout({ ...props }) {
+export function About({ ...props }) {
     return (
         <svg
             {...props}
@@ -62,7 +62,7 @@ export function IconAbout({ ...props }) {
     )
 }
 
-export function IconCode({ ...props }) {
+export function Code({ ...props }) {
     return (
         <svg
             {...props}
@@ -75,7 +75,7 @@ export function IconCode({ ...props }) {
     )
 }
 
-export function IconContant({ ...props }) {
+export function Contant({ ...props }) {
     return (
         <svg
             {...props}
@@ -87,7 +87,7 @@ export function IconContant({ ...props }) {
         </svg>
     )
 }
-export function IconGithub({ ...props }) {
+export function Github({ ...props }) {
     return (
         <svg
             {...props}
@@ -99,7 +99,7 @@ export function IconGithub({ ...props }) {
         </svg>
     )
 }
-export function IconLinkedin({ ...props }) {
+export function Linkedin({ ...props }) {
     return (
         <svg
             {...props}
@@ -113,7 +113,7 @@ export function IconLinkedin({ ...props }) {
 }
 
 
-export function IconPaperPlane({ ...props }) {
+export function PaperPlane({ ...props }) {
     return (
         <svg
             {...props}
@@ -126,7 +126,7 @@ export function IconPaperPlane({ ...props }) {
     )
     
 }
-export function IconMessage({ ...props }) {
+export function Message({ ...props }) {
     return (
         <svg
             {...props}
@@ -139,7 +139,7 @@ export function IconMessage({ ...props }) {
     )
     
 }
-export function IconUserContact({ ...props }) {
+export function UserContact({ ...props }) {
     return (
         <svg
             {...props}
@@ -151,7 +151,7 @@ export function IconUserContact({ ...props }) {
         </svg>
     )
 }
-export function IconAt({ ...props }) {
+export function At({ ...props }) {
     return (
         <svg
             {...props}
@@ -163,7 +163,7 @@ export function IconAt({ ...props }) {
         </svg>
     )
 }
-export function IconCodeBlcok({ ...props }) {
+export function CodeBlcok({ ...props }) {
     return (
         <svg
             {...props}
@@ -172,6 +172,30 @@ export function IconCodeBlcok({ ...props }) {
             fill="currentColor"
         >
             <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zM6.414 15.707 5 14.293 7.293 12 5 9.707l1.414-1.414L10.121 12l-3.707 3.707zM19 16h-7v-2h7v2z"></path>
+        </svg>
+    )
+}
+export function Phone({ ...props }) {
+    return (
+        <svg
+            {...props}
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+        >
+            <path d="m20.487 17.14-4.065-3.696a1.001 1.001 0 0 0-1.391.043l-2.393 2.461c-.576-.11-1.734-.471-2.926-1.66-1.192-1.193-1.553-2.354-1.66-2.926l2.459-2.394a1 1 0 0 0 .043-1.391L6.859 3.513a1 1 0 0 0-1.391-.087l-2.17 1.861a1 1 0 0 0-.29.649c-.015.25-.301 6.172 4.291 10.766C11.305 20.707 16.323 21 17.705 21c.202 0 .326-.006.359-.008a.992.992 0 0 0 .648-.291l1.86-2.171a.997.997 0 0 0-.085-1.39z"></path>
+        </svg>
+    )
+}
+export function ExternalLink({ ...props }) {
+    return (
+        <svg
+            {...props}
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+        >
+            <path d="m13 3 3.293 3.293-7 7 1.414 1.414 7-7L21 11V3z"></path><path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"></path>
         </svg>
     )
 }

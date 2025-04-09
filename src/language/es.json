@@ -1,30 +1,38 @@
 {
-    "navigate":{
-        "home":"Inicio",
-        "about":"Sobre mi",
-        "projects":"Proyectos",
-        "contact":"Contacto"
+    "navigate": {
+        "home": "Inicio",
+        "about": "Sobre mi",
+        "projects": "Proyectos",
+        "contact": "Contacto"
     },
-    "head":{
-        "greeting":"¡Hola,",
-        "name":"Soy Pedro Medina!",
-        "description":"Tecnico Informatico, Desarrollador Web y Apasionada por la tecnología."
+    "head": {
+        "greeting": "¡Hola,",
+        "name": "Soy Pedro Medina!",
+        "description": "Tecnico Informatico, Desarrollador Web y Apasionada por la tecnología."
     },
-    "contact":{
-        "title":"Contacto",
-        "name":"Nombre",
-        "placeholderName":"Escribe tu Nombre",
-        "email":"Correo Electrónico",
-        "placeholderEmail":"Escribe tu Correo Electrónico",
-        "message":"Mensaje",
-        "placeholderMessage":"Escribe tu Mensaje",
-        "submit":"Enviar"
+    "contact": {
+        "title": "Contacto",
+        "name": "Nombre",
+        "placeholderName": "Escribe tu Nombre",
+        "email": "Correo Electrónico",
+        "placeholderEmail": "Escribe tu Correo Electrónico",
+        "message": "Mensaje",
+        "placeholderMessage": "Escribe tu Mensaje",
+        "phone": "Teléfono",
+        "placeholderPhone": "Escribe tu Teléfono",
+        "submit": "Enviar"
     },
-    "footer":{
-        "messageOne":"Cada línea de código que escribes es un paso hacia la maestría.",
-        "messageTwo":"El código limpio hoy será tu orgullo mañana.",
-        "sectionNavigate":"Navegación",
-        "sectionWeb":"Sobre esta Web:",
-        "by":"Hecho Por"
+    "projects": {
+        "title": "Proyectos",
+        "subtitle": "Mis proyectos personales",
+        "linkGitHub": "Ir a GitHub",
+        "linkSeewebsite": "Ir al Sitio Web"
+    },
+    "footer": {
+        "messageOne": "Cada línea de código que escribes es un paso hacia la maestría.",
+        "messageTwo": "El código limpio hoy será tu orgullo mañana.",
+        "sectionNavigate": "Navegación",
+        "sectionWeb": "Sobre esta Web:",
+        "by": "Hecho Por"
     }
 }

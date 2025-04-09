@@ -1,14 +1,14 @@
 import { createContext, useContext, useState, useEffect, useRef } from "react";
 import EN from '../language/en.json'
 import ES from '../language/es.json'
-const AuthContext = createContext();
+const GlobalContext = createContext();
 
  
-export const useAuthContext = () => {
-    return useContext(AuthContext)
+export const useGlobalContext = () => {
+    return useContext(GlobalContext)
 }
 
-export function AuthContextProvider({ children }) {
+export function GlobalContextProvider({ children }) {
     const [languaje, setLanguaje] = useState(navigator.language || 'en-US')
     const [contentPage, setContentPage] = useState(EN)
     const [darkMode, setdarkMode] = useState(window.matchMedia('(prefers-color-scheme: dark)').matches)
@@ -43,9 +43,9 @@ export function AuthContextProvider({ children }) {
 
 
     return (
-        <AuthContext.Provider value={{setdarkMode, darkMode, contentPage, languaje, setLanguaje}}>
+        <GlobalContext.Provider value={{setdarkMode, darkMode, contentPage, languaje, setLanguaje}}>
             {children}
-        </AuthContext.Provider>
+        </GlobalContext.Provider>
 
     )
 }

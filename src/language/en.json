@@ -18,7 +18,15 @@
         "placeholderEmail":"Write your Email",
         "message":"Message",
         "placeholderMessage":"Write your Message",
+        "phone":"Phone",
+        "placeholderPhone":"Write your Phone",
         "submit":"Submit"
+    },
+    "projects":{
+        "title":"Projects",
+        "subtitle":"My personal projects",
+        "linkGitHub":"Go to GitHub",
+        "linkSeewebsite":"Go to Website"
     },
     "footer":{
         "messageOne":"Every line of code that you write is a step towards mastery.",

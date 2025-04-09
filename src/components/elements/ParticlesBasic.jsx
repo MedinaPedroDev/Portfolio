@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react'
 import Particles, { initParticlesEngine } from '@tsparticles/react';
 import { loadFull } from "tsparticles";
-import { useAuthContext } from '../../context/AuthContext.jsx';
+import { useGlobalContext } from '../../context/GlobalContext.jsx';
 
-function ParticlesBasic({className}) {
+function ParticlesBasic({className=""}) {
 
   const [init, setInit] = useState(false);
-  const { darkMode } = useAuthContext()
+  const { darkMode } = useGlobalContext()
 
   useEffect(() => {
     initParticlesEngine(async (engine) => {

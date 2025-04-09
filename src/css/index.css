@@ -1,18 +1,59 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
+/* ---------------------------------------------------------FOONTS --------------------------------------------------------- */
+
+@theme {
+  --font-lexend: "Lexend", Arial, sans-serif;
+  --font-protest: "Protest Strike", sans-serif;
+  --font-readex: "Readex Pro", sans-serif;
+  --font-playball: "Playball", cursive;
+
+}
+
+@utility shadow-sm-bottom {
+  box-shadow: 0px 6px 15px 0px var(--tw-shadow-color);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  
+}
+
+.scroll::-webkit-scrollbar-thumb{
+  background-color: theme('--color-blue-900');
+  border-radius: 10px;
+}
 
 /* ----------------------------------------------------- ANIMATES ----------------------------------------------------- */
 .animate-write {
   animation: blick 0.5s step-end infinite alternate, write 1.5s steps(16);
+  font-family: theme('--font-readex');
+  font-weight: 700;
+  font-style: normal;
+  
 }
 
 .animate-blick {
   animation: blick 0.5s step-end infinite alternate;
+  
 }
+
 
 .animate-write-reverse {
   animation: blick 0.5s step-end infinite alternate,
     write-reverse 1.5s steps(16) forwards;
+    font-family: theme('--font-readex');
+  font-weight: 700;
+  font-style: normal;
+    
 }
 
 @keyframes blick {
