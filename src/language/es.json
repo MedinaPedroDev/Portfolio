@@ -25,8 +25,26 @@
     "projects": {
         "title": "Proyectos",
         "subtitle": "Mis proyectos personales",
-        "linkGitHub": "Ir a GitHub",
-        "linkSeewebsite": "Ir al Sitio Web"
+        "linkGitHub": "GitHub",
+        "linkSeewebsite": "Sitio Web",
+        "listProjects": {
+            "projectBakery": {
+                "title": "Bakery",
+                "description": "A bakery website that allows you to order online. It was developed with React, Tailwind CSS and Vite. It is a responsive website that adapts to all devices. It has a shopping cart, a product list and a contact form."
+            },
+            "projectEcommerce": {
+                "title": "Bakery",
+                "description": "A bakery website that allows you to order online. It was developed with React, Tailwind CSS and Vite. It is a responsive website that adapts to all devices. It has a shopping cart, a product list and a contact form."
+            },
+            "projecPokemon": {
+                "title": "Bakery",
+                "description": "A bakery website that allows you to order online. It was developed with React, Tailwind CSS and Vite. It is a responsive website that adapts to all devices. It has a shopping cart, a product list and a contact form."
+            },
+            "projectBombita": {
+                "title": "Bakery",
+                "description": "A bakery website that allows you to order online. It was developed with React, Tailwind CSS and Vite. It is a responsive website that adapts to all devices. It has a shopping cart, a product list and a contact form."
+            }
+        }
     },
     "footer": {
         "messageOne": "Cada línea de código que escribes es un paso hacia la maestría.",

@@ -12,9 +12,19 @@ import MySql from "../../../assets/image/skill-icons--mysql-light.png"
 import PostgreSQL from "../../../assets/image/skill-icons--postgresql-dark.png"
 import Bootstrap from "../../../assets/image/skill-icons--bootstrap.png"
 
-export const ListProject = [
-    {
-        
-    }
 
-]
+export {
+    JS,
+    React,
+    Tailwind,
+    Pyton,
+    HTML,
+    CSS,
+    Github,
+    Git,    
+    VSCode,
+    Django,    
+    MySql,
+    PostgreSQL,
+    Bootstrap
+}

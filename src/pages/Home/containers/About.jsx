@@ -1,7 +1,7 @@
 import React from 'react'
 import ContentSection from '../../../components/elements/ContentSection'
 import Profile from '../../../assets/profile/profile.png'
-import { ListSkill, colors } from './ListSkill.js'
+import { ListSkill, colors } from '../data/listSkill'
 import TitleH2 from '../../../components/elements/TitleH2.jsx'
 function About({ className, ...props }) {
 

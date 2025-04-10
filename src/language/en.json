@@ -7,32 +7,50 @@
     },
     "head": {
         "greeting": "Home,",
-        "name":"I'm Pedro Medina!",
+        "name": "I'm Pedro Medina!",
         "description": "Computer Technician, Web Developer and Passionate about technology."
     },
-    "contact":{
-        "title":"Contact",
-        "name":"Name",
-        "placeholderName":"Write your Name",
-        "email":"Email",
-        "placeholderEmail":"Write your Email",
-        "message":"Message",
-        "placeholderMessage":"Write your Message",
-        "phone":"Phone",
-        "placeholderPhone":"Write your Phone",
-        "submit":"Submit"
+    "contact": {
+        "title": "Contact",
+        "name": "Name",
+        "placeholderName": "Write your Name",
+        "email": "Email",
+        "placeholderEmail": "Write your Email",
+        "message": "Message",
+        "placeholderMessage": "Write your Message",
+        "phone": "Phone",
+        "placeholderPhone": "Write your Phone",
+        "submit": "Submit"
     },
-    "projects":{
-        "title":"Projects",
-        "subtitle":"My personal projects",
-        "linkGitHub":"Go to GitHub",
-        "linkSeewebsite":"Go to Website"
+    "projects": {
+        "title": "Projects",
+        "subtitle": "My personal projects",
+        "linkGitHub": "GitHub",
+        "linkSeewebsite": "Website",
+        "listProjects": {
+            "projectBakery": {
+                "title": "Bakery",
+                "description": "A bakery website that allows you to order online. It was developed with React, Tailwind CSS and Vite. It is a responsive website that adapts to all devices. It has a shopping cart, a product list and a contact form."
+            },
+            "projectEcommerce": {
+                "title": "Bakery",
+                "description": "A bakery website that allows you to order online. It was developed with React, Tailwind CSS and Vite. It is a responsive website that adapts to all devices. It has a shopping cart, a product list and a contact form."
+            },
+            "projecPokemon": {
+                "title": "Bakery",
+                "description": "A bakery website that allows you to order online. It was developed with React, Tailwind CSS and Vite. It is a responsive website that adapts to all devices. It has a shopping cart, a product list and a contact form."
+            },
+            "projectBombita": {
+                "title": "Bakery",
+                "description": "A bakery website that allows you to order online. It was developed with React, Tailwind CSS and Vite. It is a responsive website that adapts to all devices. It has a shopping cart, a product list and a contact form."
+            }
+        }
     },
-    "footer":{
-        "messageOne":"Every line of code that you write is a step towards mastery.",
-        "messageTwo":"Clean code today will be your pride tomorrow.",
-        "sectionNavigate":"Navigation",
-        "sectionWeb":"About this website:",
-        "by":"By"
+    "footer": {
+        "messageOne": "Every line of code that you write is a step towards mastery.",
+        "messageTwo": "Clean code today will be your pride tomorrow.",
+        "sectionNavigate": "Navigation",
+        "sectionWeb": "About this website:",
+        "by": "By"
     }
 }
