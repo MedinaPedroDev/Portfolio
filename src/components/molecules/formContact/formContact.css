@@ -1,0 +1,22 @@
+/* ----------------------------------------------------- ANIMATES BUTTON ----------------------------------------------------- */
+.inner {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(-65deg, #0000 40%, #fff7 50%, #0000 70%);
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    animation: thing 3s ease infinite;
+  }
+  
+  @keyframes thing {
+    0% {
+      background-position: 130%;
+      opacity: 1;
+    }
+  
+    to {
+      background-position: -166%;
+      opacity: 0;
+    }
+  }
+  

@@ -1,8 +1,16 @@
 import React, { useRef, useState } from 'react'
-import { Github, ExternalLink } from "../../components/elements/Icons"
-import { useGlobalContext } from '../../context/GlobalContext'
+import { Github, ExternalLink } from "../../elements/Icons"
+import { useGlobalContext } from '../../../context/GlobalContext'
 import clsx from 'clsx'
-function CardProject({ title, description, imgs, technologies, linkGithub, linkDemo, className = "", ...props }) {
+import "./cardProject.css"
+function CardProject({ title, description, imgs, technologies, linkGithub, linkDemo, className = "",
+    colorBorder = {
+        right: "to-cyan-500",
+        bottom: "to-cyan-500",
+        left:"to-cyan-500",
+        top: "to-cyan-500"
+    },
+    ...props }) {
     const { contentPage } = useGlobalContext()
     const imgShow = useRef()
     const [indexImgActivate, setIndexImgActivate] = useState(0)
@@ -11,7 +19,12 @@ function CardProject({ title, description, imgs, technologies, linkGithub, linkD
         imgShow.current.src = imgs[e.currentTarget.dataset.img]
     }
     return (
-        <article className={`flex flex-col justify-between items-center px-3 py-5 gap-2 w-full sm:w-[80%] md:w-[55%] lg:w-[45%] xl:w-[35%] rounded-2xl self-stretch overflow-hidden border-1 border-gray-900/50  dark:border-gray-300/50 ${className}`} {...props}>
+        <article className={`card-animate-border flex flex-col justify-between items-center px-3 py-5 gap-2 w-full sm:w-[80%] md:w-[55%] lg:w-[45%] xl:w-[35%] rounded-2xl self-stretch overflow-hidden border-1 border-gray-900/50 relative dark:border-gray-300/50  ${className}`} {...props}>
+            <span className={`animate-span bg-linear-to-r from-transparent ${colorBorder.right}`}></span>
+            <span className={`animate-span bg-linear-to-b from-transparent ${colorBorder.bottom}`}></span>
+            <span className={`animate-span bg-linear-to-l from-transparent ${colorBorder.left}`}></span>
+            <span className={`animate-span bg-linear-to-t from-transparent ${colorBorder.top}`}></span>
+
             <div className="flex flex-col relative">
                 <img src={imgs[0]} alt="Preview" className='w-full h-55' ref={imgShow} />
                 <div className='absolute bottom-5 left-1/2 -translate-x-1/2 w-full   flex items-center justify-center gap-3 py-2 '>
@@ -30,7 +43,7 @@ function CardProject({ title, description, imgs, technologies, linkGithub, linkD
                     }
                 </div>
             </div>
-            <header className='flex flex-col gap-2'>
+            <header className='flex flex-col justify-between items-center gap-2'>
                 <h5 className='font-bold text-center text-2xl mt-3'>{title}</h5>
                 <p>{description}</p>
             </header>

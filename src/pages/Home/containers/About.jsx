@@ -3,28 +3,36 @@ import ContentSection from '../../../components/elements/ContentSection'
 import Profile from '../../../assets/profile/profile.png'
 import { ListSkill, colors } from '../data/listSkill'
 import TitleH2 from '../../../components/elements/TitleH2.jsx'
+import { useGlobalContext } from '../../../context/GlobalContext.jsx'
 function About({ className, ...props }) {
-
+    const { contentPage } = useGlobalContext()
     return (
         <ContentSection id="about" className={`relative`}>
-            <div className='w-full flex flex-col justify-center items-center '>
-                <TitleH2 >¿Quién soy?</TitleH2>
-                <div className='w-full flex flex-col-reverse md:flex-row items-center justify-evenly '>
-                    <div className='w-full md:w-3/4'>
-                        <h3 className='me-auto text-4xl text-center md:text-left text-red-500 font-semibold font-(family-name:--font-readex) mb-8'>Pedro Medina</h3>
-                        <p className='max-w-4xl text-xl my-5'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet voluptas nam minima excepturi obcaecati, delectus nisi fugit voluptatibus est molestiae doloribus sint reiciendis earum qui veniam recusandae dignissimos, ratione corporis?</p>
-                        <p className='max-w-4xl text-xl my-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, rerum cupiditate, aperiam aut eaque consectetur sequi mollitia incidunt asperiores harum, nostrum illum dicta ex atque veniam maiores inventore a quas?</p>
-                    </div>
-                    <div className='w-full md:w-1/4 flex justify-center items-center self-start'>
-
-                        <div className='w-[15rem] md:w-[15rem] h-[15rem] md:h-[15rem] bg-slate-900 border-4 border-gray-600 rounded-full overflow-clip mb-16 xl:mb-0'>
-                            <img src={Profile} alt="head" className='w-full h-full translate-x-1' />
-                        </div>
-                    </div>
+            <div className='w-full flex flex-col justify-between items-center '>
+                <TitleH2 >{contentPage.about.titleOne}</TitleH2>
+                <div className='size-[12rem] lg:size-[14rem] mb-4 ring-4 ring-blue-900 rounded-full overflow-hidden bg-white'>
+                    <img src={Profile} alt="head" className='object-cover object-[0px_10px] ' />
                 </div>
+                <div className='w-full flex flex-col-reverse md:flex-row items-center justify-center '>
+                    <div className='w-full'>
+                        <h3 className='me-auto text-4xl text-center md:text-left text-red-500 font-semibold font-(family-name:--font-readex) mb-8'>Pedro Medina</h3>
+                        <p className=' text-lg text-light my-5'>
+                            {contentPage.about.paragraphOne}
+                        </p>
+                        <p className=' text-lg text-light my-5'>
+                            {contentPage.about.paragraphTwo}
+                        </p>
+                        <p className=' text-lg text-light my-5'>
+                            {contentPage.about.paragraphThree}
+                        </p>
+
+                    </div>
+
+                </div>
+
             </div>
             <div className='w-full flex flex-col items-center justify-center mt-12'>
-                <TitleH2>Tecnologias y Herramientas</TitleH2>
+                <TitleH2>{contentPage.about.titleTwo}</TitleH2>
                 <ul className='w-full md:w-3/4 flex justify-evenly items-center flex-wrap gap-8' >
                     {
                         ListSkill?.map((skill, index) => {

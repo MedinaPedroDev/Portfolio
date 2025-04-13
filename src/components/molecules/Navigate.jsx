@@ -44,10 +44,10 @@ function Navigate({ className = "", ...props }) {
                         </a>
                     </li>
                     <li className='hover:underline hover:underline-offset-8 hover:decoration-blue-600 active:text-blue-700 hover:decoration-3 hover:dark:decoration-red-600 active:dark:text-red-600'>
-                        <Link className='flex justify-center items-center min-w-4'>
+                        <a className='flex justify-center items-center min-w-4' href='#projects'>
                             <span className='transition-all duration-100 scale-0 absolute sm:scale-none sm:static'>{contentPage.navigate.projects}</span>
                             <span className='transition-all duration-100 sm:scale-0 sm:absolute hover:text-red-600'><Code className='w-7' /></span>
-                        </Link>
+                        </a>
 
                     </li>
                     <li className='hover:underline hover:underline-offset-8 hover:decoration-blue-600 active:text-blue-700 hover:decoration-3 hover:dark:decoration-red-600 active:dark:text-red-600'>

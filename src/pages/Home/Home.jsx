@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import Navigate from '../../components/molecules/Navigate'
 import ParticlesBasic from '../../components/elements/ParticlesBasic'
-import Head from './containers/Head'
+import Head from './containers/head/Head.jsx'
 import About from './containers/About'
 import Project from './containers/Project'
 import Contact from './containers/Contact'
@@ -13,7 +13,7 @@ function Home() {
 
   return (
     <div
-      className='w-full flex flex-col justify-between items-center
+      className='w-full flex flex-col justify-center items-center
    bg-neutral-300 dark:bg-slate-950 text-black dark:text-white'
     >
       <header className='w-full h-screen relative' id="home">
@@ -22,7 +22,7 @@ function Home() {
         <ParticlesBasic className={"w-full h-screen"} />
       </header>
 
-      <main className=' w-full bg-neutral-300 dark:bg-slate-950 z-1 overflow-hidden relative'>
+      <main className=' w-full bg-neutral-300 dark:bg-slate-950 z-1 overflow-hidden relative flex flex-col justify-center items-center'>
         <ShapeCircle className={`-top-0.5 md:top-0 md:left-0 md:translate-x-1/2 translate-y-1/2  dark:bg-blue-950 bg-blue-200`} size={"30rem"} />
         <ShapeCircle className={`bottom-[60%] right-[20%] translate-x-1/2 translate-y-1/2  dark:bg-blue-950 bg-blue-200`} size={"30rem"} />
         <ShapeCircle className={`bottom-[30%] md:bottom-[20%] left-[10%] md:left-[30%] md:translate-x-1/2 translate-y-1/2  dark:bg-cyan-950 bg-cyan-200`} size={"30rem"} />
