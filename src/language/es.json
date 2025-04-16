@@ -1,0 +1,63 @@
+{
+    "navigate": {
+        "home": "Inicio",
+        "about": "Sobre mi",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    },
+    "head": {
+        "greeting": "¡Hola,",
+        "name": "Soy Pedro Medina!",
+        "description": "Tecnico Informatico, Desarrollador Web y Apasionada por la tecnología."
+    },
+    "about": {
+        "titleOne": "Acerca de mi",
+        "titleTwo": "Tecnologias y Herramientas",
+        "paragraphOne": "¡Hola!, 👋 soy Pedro Medina, programador web y Técnico Superior Universitario en Informática, he trabajado en soporte técnico y redes, pero mi pasión es el desarrollo web y la programación.",
+        "paragraphTwo": "Manejo los lenguajes de JavaScript y Python, frameworks de React y Django para crear interfaces funcionales. También tengo conocimientos en backend (Django) y bases de datos (MySQL/PostgreSQL), lo que me permite desarrollar proyectos completos, aunque aún estoy ganando experiencia.",
+        "paragraphThree": "Mi objetivo es integrarme a un equipo donde pueda poner en práctica mis conocimientos, mientras aprendo y mejoro mis habilidades. Soy autodidacta, comprometido y busco oportunidades para demostrar mi potencial, incluso como junior.  Me adapto a las necesidades del equipo y me comprometo con los objetivos de trabajo establecidos."
+    },
+    "projects": {
+        "title": "Proyectos",
+        "subtitle": "Mis proyectos personales",
+        "linkGitHub": "GitHub",
+        "linkSeewebsite": "Sitio Web",
+        "listProjects": {
+            "projectBakery": {
+                "title": "Landing Page Panadería",
+                "description": "Página de aterrizaje de panadería. Desarrollada con HTML, CSS y JavaScript, esta página web es responsiva y se adapta a todos los dispositivos."
+            },
+            "projectEcommerce": {
+                "title": "E-Commerce",
+                "description": "Tienda de E-commerce, con carrito y filtro de productos. Desarrollada con python usando Django y base de datos mysql."
+            },
+            "projecPokemon": {
+                "title": "Sitio Web de Pokémon",
+                "description": "Sitio de Pokemon consumiendo la API de 'PokeApi' para visualizar la mayoria de los datos ofrecidos. Desarrollado con React y Bootsrap."
+            },
+            "projectBombita": {
+                "title": "Sistema de Control Administrativo de Eventos",
+                "description": "Sistema de control de eventos, con registro de eventos, usuarios y recreadores, control de pagos, evaluación de eventos, filtrado, etc. Desarrollado con React para el frontend y Django para el backend."
+            }
+        }
+    },
+    "contact": {
+        "title": "Contacto",
+        "name": "Nombre",
+        "placeholderName": "Escribe tu Nombre",
+        "email": "Correo Electrónico",
+        "placeholderEmail": "Escribe tu Correo Electrónico",
+        "message": "Mensaje",
+        "placeholderMessage": "Escribe tu Mensaje",
+        "phone": "Teléfono",
+        "placeholderPhone": "Escribe tu Teléfono",
+        "submit": "Enviar"
+    },
+    "footer": {
+        "messageOne": "Cada línea de código que escribes es un paso hacia la maestría.",
+        "messageTwo": "El código limpio hoy será tu orgullo mañana.",
+        "sectionNavigate": "Navegación",
+        "sectionWeb": "Sobre esta Web:",
+        "by": "Hecho Por"
+    }
+}
