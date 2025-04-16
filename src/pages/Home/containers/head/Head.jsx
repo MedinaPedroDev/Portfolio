@@ -2,8 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import Profile from "../../../../assets/profile/profile.png"
 import { useGlobalContext } from '../../../../context/GlobalContext'
 import { Contant, Linkedin, Github } from "../../../../components/elements/Icons"
-import CurriculumSpanish from "../../../../assets/curriculum/CurriculumPedroMedinaSpanish.pdf"
-import CurriculumEnglish from "../../../../assets/curriculum/CurriculumPedroMedinaEnglish.pdf"
+import Curriculum from "../../../../assets/curriculum/CurriculumPedroMedina.pdf"
 import LinkIcon from '../../../../components/buttons/LinkIcon';
 import "./head.css"
 function Head({ className, ...props }) {
@@ -41,15 +40,15 @@ function Head({ className, ...props }) {
           </div>
           <p className='mt-2 lg:mt-5 text-xl sm:text-3xl text-center w-full md:w-2xl '>{contentPage.head.description}</p>
         </div>
-        <div className='size-[8rem] rounded-full overflow-hidden bg-white lg:ml-18 mb-5 lg:mb-0'>
+        {/* <div className='size-[8rem] rounded-full overflow-hidden bg-white lg:ml-18 mb-5 lg:mb-0'>
           <img src={Profile} alt="head" className='object-cover object-[-7px_10px] h-[9rem] ' />
-        </div>
+        </div> */}
 
       </div>
 
-      <div className='flex gap-5 md:gap-10 xl:gap-15 mt-15'>
+      <div className='flex flex-wrap justify-center gap-5 md:gap-10 xl:gap-12 mt-15'>
         {/* https://drive.google.com/uc?export=download&id=ID_DEL_ARCHIVO */}
-        <LinkIcon href={languaje == "es-ES" ? CurriculumSpanish : CurriculumEnglish} target="_blank" className={"font-semibold"}>
+        <LinkIcon href={Curriculum} target="_blank" className={"font-semibold"}>
           Curriculum
         </LinkIcon>
         <LinkIcon href="https://github.com/MedinaPedroDev" target="_blank" >
@@ -58,9 +57,12 @@ function Head({ className, ...props }) {
         <LinkIcon href="https://www.linkedin.com/in/medina-c-pedro-e/" target="_blank" >
           <Linkedin className="w-8 md:w-10 group-hover:scale-110" />
         </LinkIcon>
-        <LinkIcon href="mailto:medinacamacho27@gmail.com" target="_blank">
-          <Contant className="w-8 md:w-10 group-hover:scale-110" />
+        <LinkIcon className='flex items-center  gap-2 ' href="mailto:medinacamacho27@gmail.com" target="_blank">
+          <Contant className="w-8  group-hover:scale-110" />
+          <span className=' font-bold text-lg/8'>medinacamacho27@gmail.com</span>
         </LinkIcon>
+        
+        
       </div>
     </section>
   )
