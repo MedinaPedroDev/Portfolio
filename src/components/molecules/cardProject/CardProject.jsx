@@ -19,14 +19,14 @@ function CardProject({ title, description, imgs, technologies, linkGithub, linkD
         imgShow.current.src = imgs[e.currentTarget.dataset.img]
     }
     return (
-        <article className={`card-animate-border flex flex-col justify-between items-center px-3 py-5 gap-2 w-full sm:w-[80%] md:w-[55%] lg:w-[45%] xl:w-[35%] rounded-2xl self-stretch overflow-hidden border-1 border-gray-900/50 relative dark:border-gray-300/50  ${className}`} {...props}>
+        <article className={`card-animate-border flex flex-col justify-between items-center px-3 py-5 gap-2 w-full sm:w-[80%] md:w-[60%] lg:w-[45%] xl:w-[35%] rounded-2xl self-stretch overflow-hidden border-1 border-gray-900/50 relative dark:border-gray-300/50  ${className}`} {...props}>
             <span className={`animate-span bg-linear-to-r from-transparent ${colorBorder.right}`}></span>
             <span className={`animate-span bg-linear-to-b from-transparent ${colorBorder.bottom}`}></span>
             <span className={`animate-span bg-linear-to-l from-transparent ${colorBorder.left}`}></span>
             <span className={`animate-span bg-linear-to-t from-transparent ${colorBorder.top}`}></span>
 
             <div className="flex flex-col relative">
-                <img src={imgs[0]} alt="Preview" className='w-full h-55' ref={imgShow} />
+                <img src={imgs[0]} alt="Preview" className='w-full h-40 md:h-55' ref={imgShow} />
                 <div className='absolute bottom-5 left-1/2 -translate-x-1/2 w-full   flex items-center justify-center gap-3 py-2 '>
                     {
                         imgs?.map((img, index) => (
@@ -66,14 +66,14 @@ function CardProject({ title, description, imgs, technologies, linkGithub, linkD
                 {
                     linkDemo ?
 
-                        <a href={linkDemo} target='_blank' className='min-w-max w-full md:w-[40%] text-sm py-2 px-4 rounded-full border-2 dark:border-gray-300/50 border-gray-900/50 bg-gray-300 dark:bg-gray-900 hover:bg-orange-400/75 dark:hover:bg-indigo-700/75 flex justify-center items-center gap-2 ring-slate-900/50  hover:ring-2  shadow-neutral-950/75 dark:shadow-white/75 hover:shadow-sm  hover:scale-110 transition-all duration-300'>
+                        <a href={linkDemo} target='_blank' className='min-w-max w-[90%] md:w-[40%] text-sm py-2 px-4 rounded-full border-2 dark:border-gray-300/50 border-gray-900/50 bg-gray-300 dark:bg-gray-900 hover:bg-orange-400/75 dark:hover:bg-indigo-700/75 flex justify-center items-center gap-2 ring-slate-900/50  hover:ring-2  shadow-neutral-950/75 dark:shadow-white/75 hover:shadow-sm  hover:scale-105 transition-all duration-300'>
                             <ExternalLink className='size-8' />
                             {contentPage.projects.linkSeewebsite}
                         </a>
                         :
                         null
                 }
-                <a href={linkGithub} target='_blank' className='min-w-max w-full md:w-[40%] text-sm py-2 px-4 rounded-full border-2 dark:border-gray-300/50 border-gray-900/50 bg-gray-300 dark:bg-gray-900 hover:bg-orange-400/75 dark:hover:bg-indigo-700/75 flex justify-center items-center gap-2 ring-slate-900/50  hover:ring-2  shadow-neutral-950/75 dark:shadow-white/75 hover:shadow-sm  hover:scale-110 transition-all duration-300'>
+                <a href={linkGithub} target='_blank' className='min-w-max w-[90%] md:w-[40%] text-sm py-2 px-4 rounded-full border-2 dark:border-gray-300/50 border-gray-900/50 bg-gray-300 dark:bg-gray-900 hover:bg-orange-400/75 dark:hover:bg-indigo-700/75 flex justify-center items-center gap-2 ring-slate-900/50  hover:ring-2  shadow-neutral-950/75 dark:shadow-white/75 hover:shadow-sm  hover:scale-105 transition-all duration-300'>
                     <Github className='size-8' />
                     {contentPage.projects.linkGitHub}
                 </a>

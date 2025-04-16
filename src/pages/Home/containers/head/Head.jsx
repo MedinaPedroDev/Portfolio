@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import Profile from "../../../../assets/profile/profile.png"
+import Profile from "../../../../assets/profile/profile.webp"
 import { useGlobalContext } from '../../../../context/GlobalContext'
 import { Contant, Linkedin, Github } from "../../../../components/elements/Icons"
 import Curriculum from "../../../../assets/curriculum/CurriculumPedroMedina.pdf"
@@ -34,9 +34,9 @@ function Head({ className, ...props }) {
       <div className='w-full flex flex-col-reverse xl:flex-row justify-center items-center'>
         
         <div className='w-full md:w-1/2 flex flex-col items-center '>
-          <div className='text-3xl sm:text-5xl xl:text-6xl h-15 xl:h-20 flex font-bold gap-2 '>
+          <div className='text-2xl sm:text-3xl md:text-4xl xl:text-6xl h-15 xl:h-20 flex font-bold gap-2 '>
             <h1>{contentPage.head.greeting}</h1>
-            <span className='text-red-500 border-r-4 border-red-500 w-[15ch] whitespace-nowrap overflow-hidden animate-write' ref={spanHeadName}>{contentPage.head.name}</span>
+            <span className='text-sky-500 border-r-4 border-sky-500 w-[15ch] whitespace-nowrap overflow-hidden animate-write' ref={spanHeadName}>{contentPage.head.name}</span>
           </div>
           <p className='mt-2 lg:mt-5 text-xl sm:text-3xl text-center w-full md:w-2xl '>{contentPage.head.description}</p>
         </div>
