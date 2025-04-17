@@ -2,7 +2,7 @@ import React from 'react'
 import ContentSection from '../../../components/elements/ContentSection'
 import TitleH2 from '../../../components/elements/TitleH2'
 import FormContact from '../../../components/molecules/formContact/FormContact.jsx'
-import Notificacion from "../../../assets/image/notification-4.png"
+import Notificacion from "../../../assets/image/notification-4.webp"
 import { Linkedin, Contant, Github } from '../../../components/elements/Icons'
 import { useGlobalContext } from '../../../context/GlobalContext'
 function Contact() {

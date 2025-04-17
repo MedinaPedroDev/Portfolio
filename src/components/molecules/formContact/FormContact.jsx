@@ -9,7 +9,7 @@ function FormContact() {
   const { contentPage } = useGlobalContext()
 
   return (
-    <form className='bg-neutral-300 dark:bg-slate-950 w-full md:w-[80%] lg:w-[40%] flex flex-col justify-between gap-8 p-8 rounded-2xl border-1 border-black/50 dark:border-amber-100/50'
+    <form className='bg-neutral-300 dark:bg-slate-950 w-full md:w-[80%] lg:w-[40%] flex flex-col justify-between gap-5 md:gap-8 px-3 py-5 lg:p-8 rounded-2xl border-1 border-black/50 dark:border-amber-100/50'
       action="https://formsubmit.co/medinacamacho27@gmail.com" method="POST"
     >
       <ElementInputLabel label={<span className='flex items-center'><UserContact className="w-6 me-2" /> {contentPage.contact.name}</span>} idInput='name' placeholder={contentPage.contact.placeholderName} required />

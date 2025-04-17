@@ -14,18 +14,18 @@ import {
 } from "./listIconTechnologies"
 
 
-import bombita_1 from '../../../assets/projects/bombita_1.png'
-import bombita_2 from '../../../assets/projects/bombita_2.png'
-import bombita_3 from '../../../assets/projects/bombita_3.png'
-import eComerce_1 from '../../../assets/projects/e-commerce_1.jpg'
-import eComerce_2 from '../../../assets/projects/e-commerce_2.jpg'
-import eComerce_3 from '../../../assets/projects/e-commerce_3.jpg'
-import panaderia_1 from '../../../assets/projects/panaderia_1.jpg'
-import panaderia_2 from '../../../assets/projects/panaderia_2.jpg'
-import panaderia_3 from '../../../assets/projects/panaderia_3.jpg'
-import pokemon_1 from '../../../assets/projects/pokemon_1.jpg'
-import pokemon_2 from '../../../assets/projects/pokemon_2.jpg'
-import pokemon_3 from '../../../assets/projects/pokemon_3.jpg'
+import bombita_1 from '../../../assets/projects/bombita_1.webp'
+import bombita_2 from '../../../assets/projects/bombita_2.webp'
+import bombita_3 from '../../../assets/projects/bombita_3.webp'
+import eComerce_1 from '../../../assets/projects/e-commerce_1.webp'
+import eComerce_2 from '../../../assets/projects/e-commerce_2.webp'
+import eComerce_3 from '../../../assets/projects/e-commerce_3.webp'
+import panaderia_1 from '../../../assets/projects/panaderia_1.webp'
+import panaderia_2 from '../../../assets/projects/panaderia_2.webp'
+import panaderia_3 from '../../../assets/projects/panaderia_3.webp'
+import pokemon_1 from '../../../assets/projects/pokemon_1.webp'
+import pokemon_2 from '../../../assets/projects/pokemon_2.webp'
+import pokemon_3 from '../../../assets/projects/pokemon_3.webp'
 
 function listProject() {
     const { contentPage } = useGlobalContext()
@@ -88,6 +88,7 @@ function listProject() {
                 }
             ],
             "linkGithub": "https://github.com/MedinaPedroDev/mundo_pokemon",
+            "linkDemo": "https://world-pokemon.netlify.app/",
             "colorBorder": {
                 right: "to-yellow-600",
                 bottom: "to-yellow-600",
@@ -123,6 +124,7 @@ function listProject() {
                 }
             ],
             "linkGithub": "https://github.com/MedinaPedroDev/bakery-landing-page",
+            "linkDemo": "https://backery-landing-page.netlify.app/",
             "colorBorder": {
                 right: "to-amber-800",
                 bottom: "to-amber-800",
