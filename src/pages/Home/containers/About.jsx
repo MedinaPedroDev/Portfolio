@@ -43,7 +43,7 @@ function About({ className, ...props }) {
                                 >
 
                                     <span className='mb-2'>
-                                        <img src={skill?.icon} alt={skill?.name} className='size-14 sm:size-15 lg:size-17' />
+                                        <img src={skill?.icon} alt={`icon-${skill?.name}`} className='size-14 sm:size-15 lg:size-17' />
                                     </span>
                                     {skill?.name}
                                 </li>

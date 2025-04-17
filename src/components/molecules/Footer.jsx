@@ -18,7 +18,7 @@ function Footer({ className = "", ...props }) {
                     <p className="mb-3">{contentPage.footer.messageTwo}</p>
                 </div>
                 <div className='flex flex-col items-center'>
-                    <h6 className="font-bold text-xl mb-3 md:mb-4">{contentPage.footer.sectionNavigate}</h6>
+                    <h2 className="font-bold text-xl mb-3 md:mb-4">{contentPage.footer.sectionNavigate}</h2>
                     <ul>
                         <li><a href="#home" className="flex mb-1 md:mb-3 hover:underline hover:underline-offset-8 hover:decoration-blue-600 active:text-blue-700 hover:decoration-3 hover:dark:decoration-red-600 active:dark:text-red-600"><Home className="w-4 me-2" /> {contentPage.navigate.home}</a></li>
                         <li><a href="#about" className="flex mb-1 md:mb-3 hover:underline hover:underline-offset-8 hover:decoration-blue-600 active:text-blue-700 hover:decoration-3 hover:dark:decoration-red-600 active:dark:text-red-600"><About className="w-4 me-2" /> {contentPage.navigate.about}</a></li>
@@ -27,9 +27,9 @@ function Footer({ className = "", ...props }) {
                     </ul>
                 </div>
                 <div className='flex flex-col items-center'>
-                    <h6 className="font-bold text-xl mb-3 md:mb-4">{contentPage.footer.sectionWeb}</h6>
-                    <p className="flex items-center"><img src={React} className="size-10" alt="React" />React</p>
-                    <p className="flex items-center"><img src={Tailwind} className="size-10" alt="Tailwind" />Tailwind CSS</p>
+                    <h2 className="font-bold text-xl mb-3 md:mb-4">{contentPage.footer.sectionWeb}</h2>
+                    <p className="flex items-center"><img src={React} className="size-10" alt="icon-React" />React</p>
+                    <p className="flex items-center"><img src={Tailwind} className="size-10" alt="icon-Tailwind" />Tailwind CSS</p>
                     <p>{contentPage.footer.by} <span className='font-bold hover:text-blue-800 dark:hover:text-red-600'>Pedro Medina</span> </p>
                 </div>
             </div>

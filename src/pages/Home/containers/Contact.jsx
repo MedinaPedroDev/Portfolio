@@ -16,9 +16,9 @@ function Contact() {
         <div className='w-full sm:w-[80%] lg:w-1/2 mt-10 flex flex-col justify-center items-center '>
           <img className='w-2/3' src={Notificacion} alt="Notificacion" />
           <div className='flex justify-center items-center gap-6'>
-            <a className='transition-all  hover:scale-110' href="https://www.linkedin.com/in/medina-c-pedro-e/" target="_blank"><Linkedin className='w-10' /></a>
-            <a className='transition-all  hover:scale-110' href="https://github.com/MedinaPedroDev" target="_blank"><Github className='w-10' /></a>
-            <a className='transition-all  hover:scale-110' href="mailto:medinacamacho27@gmail.com" target="_blank"><Contant className='w-10' /></a>
+            <a aria-label="linkedin" className='transition-all  hover:scale-110' href="https://www.linkedin.com/in/medina-c-pedro-e/" target="_blank"><Linkedin className='w-10' /></a>
+            <a aria-label="github" className='transition-all  hover:scale-110' href="https://github.com/MedinaPedroDev" target="_blank"><Github className='w-10' /></a>
+            <a aria-label="email" className='transition-all  hover:scale-110' href="mailto:medinacamacho27@gmail.com" target="_blank"><Contant className='w-10' /></a>
           </div>
         </div>
       </div>

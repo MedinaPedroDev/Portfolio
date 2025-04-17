@@ -44,16 +44,16 @@ function Head({ className, ...props }) {
       </div>
 
       <div className='flex flex-wrap justify-center gap-5 md:gap-10 xl:gap-12 mt-15'>
-        <LinkIcon href={languaje === "en-US" ? CurriculumEnglish : Curriculum} target="_blank" className={"font-semibold"}>
+        <LinkIcon aria-label="curriculum" href={languaje === "en-US" ? CurriculumEnglish : Curriculum} target="_blank" className={"font-semibold"}>
           Curriculum
         </LinkIcon>
-        <LinkIcon href="https://github.com/MedinaPedroDev" target="_blank" >
+        <LinkIcon aria-label="github" href="https://github.com/MedinaPedroDev" target="_blank" >
           <Github className="w-8 md:w-10 group-hover:scale-110" />
         </LinkIcon>
-        <LinkIcon href="https://www.linkedin.com/in/medina-c-pedro-e/" target="_blank" >
+        <LinkIcon aria-label="linkedin" href="https://www.linkedin.com/in/medina-c-pedro-e/" target="_blank" >
           <Linkedin className="w-8 md:w-10 group-hover:scale-110" />
         </LinkIcon>
-        <LinkIcon className='flex items-center  gap-2 ' href="mailto:medinacamacho27@gmail.com" target="_blank">
+        <LinkIcon aria-label="email" className='flex items-center  gap-2 ' href="mailto:medinacamacho27@gmail.com" target="_blank">
           <Contant className="w-8  group-hover:scale-110" />
           <span className=' font-bold text-lg/8'>medinacamacho27@gmail.com</span>
         </LinkIcon>

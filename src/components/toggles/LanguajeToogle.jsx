@@ -11,11 +11,11 @@ function LanguajeToogle() {
                 <input type="checkbox" className="hidden peer" checked={languaje === 'en-US'} onChange={() => { setLanguaje(languaje === 'en-US' ? 'es-ES' : 'en-US') }} />
                 <span className="w-max px-1 font-medium flex transition-all duration-300  absolute  left-1/2 -translate-x-1/2 bottom-1/2 translate-y-1/2 peer-checked:left-1/2 peer-checked:translate-x-full">
                     ES
-                    <img src={flagEs} alt={"flag es"} className="ms-1 w-7" />
+                    <img src={flagEs} alt={"flag es"} className="ms-1 w-7 h-6" />
                 </span>
                 <span className="w-max px-1 font-medium flex transition-all duration-300 absolute left-0 -translate-x-full bottom-1/2 translate-y-1/2 peer-checked:left-1/2 peer-checked:-translate-x-1/2">
                     EN
-                    <img src={flagEn} alt={"flag es"} className="ms-1 w-7" />
+                    <img src={flagEn} alt={"flag es"} className="ms-1 w-7 h-6" />
                 </span>
             </label>
         </div>

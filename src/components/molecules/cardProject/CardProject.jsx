@@ -44,7 +44,7 @@ function CardProject({ title, description, imgs, technologies, linkGithub, linkD
                 </div>
             </div>
             <header className='flex flex-col justify-between items-center gap-2'>
-                <h5 className='font-bold text-center text-2xl mt-3'>{title}</h5>
+                <h3 className='font-bold text-center text-2xl mt-3'>{title}</h3>
                 <p>{description}</p>
             </header>
             <div className='flex flex-wrap gap-2 justify-center'>
@@ -66,7 +66,7 @@ function CardProject({ title, description, imgs, technologies, linkGithub, linkD
                 {
                     linkDemo ?
 
-                        <a href={linkDemo} target='_blank' className='min-w-max w-[90%] md:w-[40%] text-sm py-2 px-4 rounded-full border-2 dark:border-gray-300/50 border-gray-900/50 bg-cyan-500 hover:bg-green-500/75 flex justify-center items-center gap-2 ring-slate-900/50  hover:ring-2  shadow-neutral-950/75 dark:shadow-white/75 hover:shadow-sm  hover:scale-105 transition-all duration-300'>
+                        <a href={linkDemo} target='_blank' className='min-w-max w-[90%] text-black md:w-[40%] text-sm py-2 px-4 rounded-full border-2  border-gray-900/50 bg-cyan-400 hover:bg-green-500 flex justify-center items-center gap-2 ring-slate-900/50  hover:ring-2  shadow-neutral-950/75 hover:shadow-sm  hover:scale-105 transition-all duration-300'>
                             <ExternalLink className='size-8' />
                             {contentPage.projects.linkSeewebsite}
                         </a>
