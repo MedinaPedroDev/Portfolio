@@ -88,6 +88,7 @@ function listProject() {
                 }
             ],
             "linkGithub": "https://github.com/MedinaPedroDev/mundo_pokemon",
+            "linkDemo": "https://world-pokemon.netlify.app/",
             "colorBorder": {
                 right: "to-yellow-600",
                 bottom: "to-yellow-600",
@@ -123,6 +124,7 @@ function listProject() {
                 }
             ],
             "linkGithub": "https://github.com/MedinaPedroDev/bakery-landing-page",
+            "linkDemo": "https://backery-landing-page.netlify.app/",
             "colorBorder": {
                 right: "to-amber-800",
                 bottom: "to-amber-800",

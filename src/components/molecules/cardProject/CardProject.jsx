@@ -66,7 +66,7 @@ function CardProject({ title, description, imgs, technologies, linkGithub, linkD
                 {
                     linkDemo ?
 
-                        <a href={linkDemo} target='_blank' className='min-w-max w-[90%] md:w-[40%] text-sm py-2 px-4 rounded-full border-2 dark:border-gray-300/50 border-gray-900/50 bg-gray-300 dark:bg-gray-900 hover:bg-orange-400/75 dark:hover:bg-indigo-700/75 flex justify-center items-center gap-2 ring-slate-900/50  hover:ring-2  shadow-neutral-950/75 dark:shadow-white/75 hover:shadow-sm  hover:scale-105 transition-all duration-300'>
+                        <a href={linkDemo} target='_blank' className='min-w-max w-[90%] md:w-[40%] text-sm py-2 px-4 rounded-full border-2 dark:border-gray-300/50 border-gray-900/50 bg-cyan-500 hover:bg-green-500/75 flex justify-center items-center gap-2 ring-slate-900/50  hover:ring-2  shadow-neutral-950/75 dark:shadow-white/75 hover:shadow-sm  hover:scale-105 transition-all duration-300'>
                             <ExternalLink className='size-8' />
                             {contentPage.projects.linkSeewebsite}
                         </a>
