@@ -1,31 +1,31 @@
 {
     "navigate": {
         "home": "Inicio",
-        "about": "Sobre mi",
+        "about": "Sobre mí",
         "projects": "Proyectos",
         "contact": "Contacto"
     },
     "head": {
         "greeting": "¡Hola,",
         "name": "Soy Pedro Medina!",
-        "description": "Informatico, Desarrollador Web y Apasionada por la tecnología."
+        "description": "Informático, Desarrollador Web y apasionado por la tecnología."
     },
     "about": {
-        "titleOne": "Acerca de mi",
+        "titleOne": "Sobre mí",
         "titleTwo": "Tecnologias y Herramientas",
-        "paragraphOne": "¡Hola!, 👋 soy Pedro Medina, programador web y Técnico Superior Universitario en Informática, he trabajado en soporte técnico y redes, pero mi pasión es el desarrollo web y la programación.",
-        "paragraphTwo": "Manejo los lenguajes de JavaScript y Python, frameworks de React y Django para crear interfaces funcionales. También tengo conocimientos en backend (Django) y bases de datos (MySQL/PostgreSQL), lo que me permite desarrollar proyectos completos, aunque aún estoy ganando experiencia.",
-        "paragraphThree": "Mi objetivo es integrarme a un equipo donde pueda poner en práctica mis conocimientos, mientras aprendo y mejoro mis habilidades. Soy autodidacta, comprometido y busco oportunidades para demostrar mi potencial, incluso como junior.  Me adapto a las necesidades del equipo y me comprometo con los objetivos de trabajo establecidos."
+        "paragraphOne": "¡Hola! 👋 Soy Pedro Medina, desarrollador web y Técnico Superior Universitario en Informática. He trabajado en soporte técnico y redes, pero mi verdadera pasión es el desarrollo web y la programación.",
+        "paragraphTwo": "Domino JavaScript y Python, junto con frameworks como React y Django, y librerías como Tailwind y Bootstrap para crear interfaces funcionales. También tengo experiencia en backend (Django) y bases de datos (MySQL/PostgreSQL), lo que me permite desarrollar proyectos completos, aunque sigo ampliando mi experiencia.",
+        "paragraphThree": "Mi objetivo es unirme a un equipo donde pueda aplicar mis conocimientos mientras sigo aprendiendo. Soy autodidacta, comprometido y busco oportunidades para demostrar mi potencial, incluso como junior. Me adapto a las necesidades del equipo y me comprometo con los objetivos establecidos."
     },
     "projects": {
         "title": "Proyectos",
-        "subtitle": "Mis proyectos personales",
+        "subtitle": "Mis proyectos",
         "linkGitHub": "GitHub",
-        "linkSeewebsite": "Sitio Web",
+        "linkSeewebsite": "Ver Demo",
         "listProjects": {
             "projectBakery": {
                 "title": "Landing Page Panadería",
-                "description": "Página de aterrizaje de panadería. Desarrollada con HTML, CSS y JavaScript, esta página web es responsiva y se adapta a todos los dispositivos."
+                "description": "Landing page responsive para una panadería. Desarrollada con HTML, CSS y JavaScript, se adapta a todos los dispositivos."
             },
             "projectEcommerce": {
                 "title": "E-Commerce",
@@ -33,31 +33,31 @@
             },
             "projecPokemon": {
                 "title": "Sitio Web de Pokémon",
-                "description": "Sitio de Pokemon consumiendo la API de 'PokeApi' para visualizar la mayoria de los datos ofrecidos. Desarrollado con React y Bootsrap."
+                "description": "Página web de Pokémon que consume la API de 'PokeAPI' para mostrar datos detallados. Desarrollada con React y Bootstrap."
             },
             "projectBombita": {
                 "title": "Sistema de Control Administrativo de Eventos",
-                "description": "Sistema de control de eventos, con registro de eventos, usuarios y recreadores, control de pagos, evaluación de eventos, filtrado, etc. Desarrollado con React para el frontend y Django para el backend."
+                "description": "Sistema para administrar eventos: registro, usuarios, pagos, evaluaciones y filtrado. Desarrollado con React (frontend) y Django (backend)."
             }
         }
     },
     "contact": {
         "title": "Contacto",
         "name": "Nombre",
-        "placeholderName": "Escribe tu Nombre",
-        "email": "Correo Electrónico",
-        "placeholderEmail": "Escribe tu Correo Electrónico",
+        "placeholderName": "Tu nombre",
+        "email": "Correo electrónico",
+        "placeholderEmail": "Tu correo",
         "message": "Mensaje",
-        "placeholderMessage": "Escribe tu Mensaje",
+        "placeholderMessage": "Tu mensaje",
         "phone": "Teléfono",
-        "placeholderPhone": "Escribe tu Teléfono",
+        "placeholderPhone": "Tu número",
         "submit": "Enviar"
     },
     "footer": {
-        "messageOne": "Cada línea de código que escribes es un paso hacia la maestría.",
+        "messageOne": "Cada línea de código que escribes te acerca a la maestría.",
         "messageTwo": "El código limpio hoy será tu orgullo mañana.",
         "sectionNavigate": "Navegación",
-        "sectionWeb": "Sobre esta Web:",
-        "by": "Hecho Por"
+        "sectionWeb": "Sobre este sitio",
+        "by": "Creado por" 
     }
 }

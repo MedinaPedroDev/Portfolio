@@ -10,8 +10,8 @@ function About({ className, ...props }) {
         <ContentSection id="about" className={`relative`}>
             <div className='w-full flex flex-col justify-between items-center '>
                 <TitleH2 >{contentPage.about.titleOne}</TitleH2>
-                <div className='size-[12rem] lg:size-[14rem] mb-4 ring-4 ring-blue-900 rounded-full overflow-hidden bg-white'>
-                    <img src={Profile} alt="head" className='object-cover object-[0px_10px] ' />
+                <div className='size-[15rem] lg:size-[16rem] mb-4 ring-4 ring-blue-900 rounded-full overflow-hidden bg-white'>
+                    <img src={Profile} alt="head" className='w-full object-cover object-[0px_10px] ' />
                 </div>
                 <div className='w-full flex flex-col-reverse md:flex-row items-center justify-center '>
                     <div className='w-full'>

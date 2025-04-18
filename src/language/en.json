@@ -1,40 +1,39 @@
 {
     "navigate": {
         "home": "Home",
-        "about": "About",
+        "about": "About Me",
         "projects": "Projects",
         "contact": "Contact"
     },
     "head": {
-        "greeting": "Home,",
+        "greeting": "Hello,",
         "name": "I'm Pedro Medina!",
-        "description": "Computer Scientist, Web Developer and Passionate about technology."
+        "description": "Computer Scientist, Web Developer and Tech Enthusiast."
     },
     "about": {
         "titleOne": "About Me",
-        "titleTwo": "Technologies and Tools",
-        
-        "paragraphOne": "Hi! 👋 I'm Pedro Medina, a web programmer and a University Technician in Computer Science. I've worked in technical support and networks, but my passion is web development and programming.",
-        "paragraphTwo": "I'm proficient in JavaScript and Python, React and Django frameworks, and libraries like Tailwind and Bootstrap to create functional interfaces. I also have experience with backend (Django) and databases (MySQL/PostgreSQL), which allows me to develop complete projects, although I'm still gaining experience.",
-        "paragraphThree": "My goal is to join a team where I can put my knowledge into practice while learning and improving my skills. I'm self-taught, committed, and look for opportunities to demonstrate my potential, even as a junior. I adapt to the team's needs and commit to established work objectives."
+        "titleTwo": "Skills",
+        "paragraphOne": "Hi! 👋 I'm Pedro Medina, a web developer and University Technician in Computer Science. I've worked in technical support and networking, but my true passion lies in web development and programming.",  
+        "paragraphTwo": "I specialize in JavaScript and Python, along with frameworks like React and Django, and libraries such as Tailwind and Bootstrap to build functional interfaces. I also have experience in backend development (Django) and databases (MySQL/PostgreSQL), allowing me to work on full-stack projects—though I'm still gaining experience.",  
+        "paragraphThree": "My goal is to join a team where I can apply my knowledge while continuing to learn and grow. I'm self-taught, highly committed, and eager to prove my potential—even as a junior developer. I adapt quickly to team needs and am dedicated to meeting work objectives."
     },
     "projects": {
         "title": "Projects",
         "subtitle": "My personal projects",
         "linkGitHub": "GitHub",
-        "linkSeewebsite": "Website",
+        "linkSeewebsite": "Live Demo",
         "listProjects": {
             "projectBakery": {
                 "title": "Bakery Landing Page",
-                "description": "Bakery landing page. Developed with HTML, CSS, and JavaScript, this website is responsive and adapts to all devices."
+                "description":"A responsive bakery landing page built with HTML, CSS, and JavaScript, designed to adapt seamlessly to all devices."
             },
             "projectEcommerce": {
                 "title": "E-Commerce",
-                "description": "E-commerce store with shopping cart and product filter. Developed with Python using Django and a MySQL database."
+                "description": "An e-commerce store featuring a shopping cart and product filters. Developed with Python (Django) and MySQL."
             },
             "projecPokemon": {
                 "title": "Pokémon Website",
-                "description": "Pokemon site using the 'PokeApi' API to display most of the data offered. Developed with React and Bootstrap."
+                "description": "A Pokémon website using the 'PokeAPI' to display extensive Pokémon data. Built with React and Bootstrap."
             },
             "projectBombita": {
                 "title": "Administrative Event Control System",
@@ -43,7 +42,7 @@
         }
     },
     "contact": {
-        "title": "Contact",
+        "title": "Get in Touch",
         "name": "Name",
         "placeholderName": "Write your Name",
         "email": "Email",
@@ -52,13 +51,13 @@
         "placeholderMessage": "Write your Message",
         "phone": "Phone",
         "placeholderPhone": "Write your Phone",
-        "submit": "Submit"
+        "submit": "Send"
     },
     "footer": {
-        "messageOne": "Every line of code that you write is a step towards mastery.",
+        "messageOne": "Every line of code you write brings you closer to mastery.",
         "messageTwo": "Clean code today will be your pride tomorrow.",
         "sectionNavigate": "Navigation",
-        "sectionWeb": "About this website:",
-        "by": "By"
+        "sectionWeb": "About This Website: ",
+        "by": "Created by"
     }
 }
